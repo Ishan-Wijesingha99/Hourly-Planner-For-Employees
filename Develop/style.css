@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -69,3 +75,48 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+
+
+
+
+.column {
+  border: 2px solid red;
+}
+
+.hour {
+  border-bottom: 3px dotted black;
+  border-top: 3px dotted black;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+}
+
+.time-text {
+  margin-top: 28.5px;
+  margin-bottom: 28.5px;
+}
+
+.type-column {
+  height: 120px;
+  width: 500px;
+  position: relative;
+}
+
+.form-textarea {
+  background-color: rgb(214, 208, 208);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: start;
+}
+
+.save-here {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #68BBE3;
+}
+
+
+
