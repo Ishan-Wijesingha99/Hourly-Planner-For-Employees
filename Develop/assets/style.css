@@ -116,10 +116,11 @@ textarea{
   left: 0;
   top: 0;
   text-align: start;
-  padding: 10px 0px;
+  padding: 10px;
 }
 
 .save-here {
+  cursor: pointer;
   border-radius: 0px 10px 10px 0px;
   background-color: #68BBE3;
   border: 1px solid black;
