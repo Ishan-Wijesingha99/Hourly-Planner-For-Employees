@@ -25,6 +25,7 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding: 30px;
 }
 
 .description{
@@ -80,12 +81,16 @@ textarea{
 
 
 
+.row {
+  margin-bottom: 42px;
+}
 
 
 .hour {
-  border-bottom: 3px dotted black;
-  border-top: 3px dotted black;
-  border-left: 0px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-radius: 10px 0px 0px 10px;
   border-right: 0px;
   text-align: center;
 }
@@ -99,6 +104,8 @@ textarea{
   height: 120px;
   width: 500px;
   position: relative;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .form-textarea {
@@ -114,6 +121,7 @@ textarea{
 .save-here {
   border-radius: 0px 10px 10px 0px;
   background-color: #68BBE3;
+  border: 1px solid black;
 }
 
 
