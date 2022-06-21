@@ -116,6 +116,7 @@ textarea{
   left: 0;
   top: 0;
   text-align: start;
+  padding: 10px 0px;
 }
 
 .save-here {
