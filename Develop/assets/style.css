@@ -176,3 +176,20 @@ textarea{
   }
 
 }
+
+
+
+
+#create-margin-top {
+  margin: 80px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#delete-btn {
+  padding: 20px;
+  font-weight: bolder;
+  background-color: red;
+  border-radius: 10px;
+}
