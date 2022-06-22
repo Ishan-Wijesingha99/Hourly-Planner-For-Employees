@@ -1,6 +1,23 @@
 // defining HTML elements
 const currentTimeElement = document.querySelector('#currentDay');
 const textAreaDivsList = document.querySelectorAll('.form-textarea');
+const saveHereDivsList = document.querySelectorAll('.save-here');
+const saveHereTextList = document.querySelectorAll('.save-here-text');
+
+
+const localStorageString = localStorage.getItem('hour10');
+console.log(typeof localStorageString);
+
+
+
+
+textAreaDivsList.forEach(function(element, i) {
+    element.value = localStorage.getItem(`hour${element.dataset.hours}`);
+})
+
+
+
+
 
 
 
@@ -25,12 +42,33 @@ textAreaDivsList.forEach(function(element, i) {
 
     if(Number(element.dataset.hours) < currentHours) {
         element.style.backgroundColor = 'red';
+    } else if(Number(element.dataset.hours) == currentHours) {
+        element.style.backgroundColor = '#d3d3d3'
     }
 
+})
 
 
+// const saveToLocalStorage = function() {
+
+// }
+
+
+saveHereDivsList.forEach(function(element, i) {
+
+    element.addEventListener('click', function(e) {
+
+        let localStorageString = localStorage.setItem(`hour${textAreaDivsList[i].dataset.hours}`, `${textAreaDivsList[i].value}`);
+
+    })
 
 })
+
+
+
+
+
+
 
 
 
