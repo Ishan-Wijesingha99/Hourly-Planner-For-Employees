@@ -5,6 +5,8 @@ const saveHereDivsList = document.querySelectorAll('.save-here');
 const saveHereTextList = document.querySelectorAll('.save-here-text');
 
 
+
+
 const localStorageString = localStorage.getItem('hour10');
 console.log(typeof localStorageString);
 
@@ -49,16 +51,17 @@ textAreaDivsList.forEach(function(element, i) {
 })
 
 
-// const saveToLocalStorage = function() {
 
-// }
 
 
 saveHereDivsList.forEach(function(element, i) {
 
     element.addEventListener('click', function(e) {
-
-        let localStorageString = localStorage.setItem(`hour${textAreaDivsList[i].dataset.hours}`, `${textAreaDivsList[i].value}`);
+        let isExecuted = confirm('Would you like to save the text content so that when this page is exited or refreshed, the text content will persist?')
+        
+        if(isExecuted) {
+            let localStorageString = localStorage.setItem(`hour${textAreaDivsList[i].dataset.hours}`, `${textAreaDivsList[i].value}`);
+        }
 
     })
 
