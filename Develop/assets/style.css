@@ -81,6 +81,42 @@ textarea{
 
 
 
+
+
+
+.colour-code-section {
+  text-align: center;
+  margin: 50px;
+}
+
+.colour-line {
+  margin-bottom: 30px;
+}
+
+#red-word {
+  background-color: red;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#grey-word {
+  background-color: #d3d3d3;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#green-word {
+  background-color: rgb(153, 219, 153);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
 .row {
   margin-bottom: 42px;
 }
