@@ -1,3 +1,5 @@
+
+/* general CSS */
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +12,7 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -19,6 +21,11 @@ textarea{
   padding: 10px;
 }
 
+
+
+
+
+/* Jumbotron */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -28,62 +35,11 @@ textarea{
   padding: 30px;
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
 
 
 
 
-
-
-
-
+/* Colour code at the top */
 .colour-code-section {
   text-align: center;
   margin: 50px;
@@ -115,12 +71,13 @@ textarea{
 
 
 
-
-
+/* grid rows */
 .row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
   margin-bottom: 42px;
 }
-
 
 .hour {
   border-bottom: 1px solid black;
@@ -165,21 +122,9 @@ textarea{
 
 
 
-@media only screen and (max-width:760px) {
-  .time-text, .save-here-text {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .save-here-text {
-    font-size: 10px;
-  }
-
-}
 
 
-
-
+/* button at the bottom */
 #create-margin-top {
   margin: 80px 0px;
   display: flex;
@@ -192,4 +137,22 @@ textarea{
   font-weight: bolder;
   background-color: red;
   border-radius: 10px;
+}
+
+
+
+
+
+/* responsive design */
+@media only screen and (max-width:760px) {
+  
+  .time-text, .save-here-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .save-here-text {
+    font-size: 10px;
+  }
+
 }
