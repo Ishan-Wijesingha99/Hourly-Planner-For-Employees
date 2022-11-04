@@ -1,6 +1,6 @@
-# Week-5-Challenge-Daily-Hourly-Planner
+# Daily Hourly Planner For Employees
 
-## Link to deployed application
+## Link to Deployed Application
 https://ishan-wijesingha99.github.io/Daily-Hourly-Planner-For-Employees/
 
 ## Description
@@ -12,7 +12,7 @@ There is a grid underneath this colour code that has one row for every hour. Whe
 
 There is a button at the bottom of the webpage that can be used to delete all the locally stored text the user has saved.
 
-## Screenshots of application
+## Screenshots of Application
 ![screenshot-1](./assets/images/screenshot-1.png)
 ![screenshot-2](./assets/images/screenshot-2.png)
 
