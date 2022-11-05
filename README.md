@@ -1,7 +1,7 @@
-# Daily Hourly Planner For Employees
+# Hourly Planner For Employees
 
 ## Link to Deployed Application
-https://ishan-wijesingha99.github.io/Daily-Hourly-Planner-For-Employees/
+https://ishan-wijesingha99.github.io/Hourly-Planner-For-Employees/
 
 ## Description
 The application is an hourly planner for an employee to use during work hours (9am-5pm). Once the webpage loads, the current date is rendered at the top below the jumbotron heading. 
