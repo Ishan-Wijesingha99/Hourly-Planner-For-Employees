@@ -4,7 +4,7 @@
 https://ishan-wijesingha99.github.io/Hourly-Planner-For-Employees/
 
 ## Description
-The application is an hourly planner for an employee to use during work hours (9am-5pm). Once the webpage loads, the current date is rendered at the top below the jumbotron heading. 
+This application is an hourly planner for an employee to use during work hours (9am-5pm). Once the webpage loads, the current date is rendered at the top below the jumbotron heading. 
 
 There is a colour code to indicate to users what the different colours signify.
 
